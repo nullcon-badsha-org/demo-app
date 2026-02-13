@@ -16,7 +16,7 @@ spec:
         - name: dockerhub-secret
       containers:
         - name: demo-app
-          image: manojdeshmukh45/demo-app:latest
+          image: manojdeshmukh45/demo-app:7da2322c085d4032eaed8727dc10d5ebbf339449
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
